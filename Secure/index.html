@@ -1,0 +1,36 @@
+<!--
+    index.html
+    The index file for web browser
+    This file is the same in both Vuln and Secure directories
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Internet Banking</title>
+    </head>
+    <body class="style1">
+        <label>
+            <form method="POST" action="login.php">
+                <img class="mb-4" src="https://careerhub.com.au/assets/logos/curtin.png" alt="" width="100" height="100"> 
+                <h1 class="h3 mb-3 fw-normal">Please Log In <br>
+                    <span class="gold">Bank of</span> <span class="blue">CC</span><span class="green">$</span><span class="purple">E</span><span class="red">P</span>
+                </h1> 
+                <div class="form-floating"> 
+                    <input type="username" class="form-control" id="floatingInput" placeholder="Username" name="username"> 
+                    <label for="floatingInput">Username</label> 
+                </div> 
+                <div class="form-floating"> 
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password"> 
+                    <label for="floatingPassword">Password</label> 
+                </div> 
+                <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button> 
+                <p class="mt-5 mb-3 text-body-secondary">© Group 10</p> 
+            </form>
+        </label>
+    </body>
+</html>
