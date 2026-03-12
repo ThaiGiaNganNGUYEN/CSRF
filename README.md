@@ -1,4 +1,4 @@
-## Synopsis
+# Synopsis
 Cyber Crime and Security Enhanced Programming - ISEC3004
 Assignment 1
 Cross Site Request Forgery
@@ -60,7 +60,7 @@ In browser: http://127.0.0.1:8888
 Username: student
 Password: ISEC3004
 
-## Authors
+# Authors
 Group 10:
 Thai Gia Ngan Nguyen - 22259499
 Rupanshu Garg - 22027324
